@@ -1,0 +1,9 @@
+PermitRootLogin no
+MaxSessions 1
+AuthorizedKeysFile	.ssh/authorized_keys
+PasswordAuthentication yes
+PermitEmptyPasswords no
+AllowTcpForwarding yes
+GatewayPorts no
+X11Forwarding no
+Subsystem	sftp	/usr/lib/ssh/sftp-server
